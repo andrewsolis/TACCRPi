@@ -21,9 +21,9 @@ headnode is the master/head node for the cluster
 unless updated: currently SSH is not working on child1
 
 use sinfo on the headnode to check states of each node after loading:
-  Down (cannot communicate properly for whatever reason)
-  UNK (unknown) (means the the slurm controller failed to start on that node for whatever reason –usually outdated specs (need to comment out     unnecessary configurations for this to be fixed)
-  Up (is working!)
+- Down (cannot communicate properly for whatever reason)
+- UNK (unknown) (means the the slurm controller failed to start on that node for whatever reason –usually outdated specs (need to comment out unnecessary configurations for this to be fixed)
+- Up (is working!)
 
 They are all able to speak with each other through the switch so it is very important that:
 - The switch is working and connected
