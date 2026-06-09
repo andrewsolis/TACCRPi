@@ -10,7 +10,7 @@ Started from step 4, as the RPis were already configured, but make sure to fix a
 
 In step 5, the file paths are outdated anywhere you see slurm-llnl it should just be slurm.
 
-In general, headnode should we the RPi with the most GB to prevent any bottlenecks for the cluster.
+In general, headnode should be the RPi with the most GB to prevent any bottlenecks for the cluster.
 
 The nodes/models in the cluster:
 Magnolia: RPi 3
@@ -28,6 +28,10 @@ use sinfo on the headnode to check states of each node after loading:
 They are all able to speak with each other through the switch so it is very important that:
 - The switch is working and connected
 - They are all connected to the switch
+
+When turning on the RPi's if powered down be sure to turn on the headnode first before any of the child nodes, as the switch will let you SSH only into the first one. You cannot go from child node to headnode, and ideally if the cluster is set up correctly all you need is access to the headnode to run any programs.
+
+Any issues will likely be found within the log if you recieve UNK as a status of a node.
 
 
 
