@@ -34,7 +34,9 @@ When turning on the RPi's if powered down be sure to turn on the headnode first 
 Any issues will likely be found within the log if you recieve UNK as a status of a node.
 
 
-
+Additional Notes on the Cluster:
+https://docs.google.com/document/d/1FT6gdIzOaJzvHghcUACNUJ_Gm2P_MlZ-jk7aBySbbWk/edit?tab=t.0
+https://docs.google.com/document/d/1tIlaqHSHRgjeAkjinBBHICIGmNuOACMjjzf2yv3-izU/edit?tab=t.0
 
 
 
